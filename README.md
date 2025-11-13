@@ -99,7 +99,7 @@ Como plus se realizaron las configuraciones para el proyecto fuera SPA y PWA, br
 
 ## Link del proyecto
 
-
+https://prueba-tecnica-double-v.vercel.app/
 
 ## Features
 
