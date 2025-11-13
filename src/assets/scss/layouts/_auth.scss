@@ -1,0 +1,38 @@
+.layout-auth {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    overflow: auto;
+    background-color: #111010;
+}
+
+.btn-auth-register,
+.btn-auth {
+    border: 1px solid #FFF;
+    color: #fff;
+    background-color: #1a1b1f;
+    border-radius: 4px;
+    padding: 8px 25px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    transition: all .2s;
+}
+
+.btn-auth-register {
+    background-color: #419cff;
+}
+
+.btn-auth-register:hover{
+        background-color: #419cff;
+}
+
+.btn-auth:hover {
+    color: #fff;
+    background-image: url('../bg-btn.svg');
+    background-size: auto;
+}

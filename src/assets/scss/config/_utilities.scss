@@ -1,0 +1,9 @@
+@each $breakpoint, $max-widths in $container-max-widths{
+    @include media-breakpoint-down($breakpoint){
+        @each $display in (inline, inline-block, block, grid, inline-grid, table, table-row, table-cell, flex, inline-flex, none){
+            .d-#{$breakpoint}-#{$display}-down{
+                display: $display  !important;
+            }
+        }
+    }
+}

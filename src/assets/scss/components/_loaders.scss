@@ -1,0 +1,13 @@
+.loader-section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(gray, .4);
+    border-radius: inherit;
+    backdrop-filter: blur(1px);
+    display: grid;
+    place-items: center;
+}

@@ -1,0 +1,11 @@
+@import "config/vars";
+@import "config/base";
+@import "config/imports";
+@import "config/utilities";
+
+@import "components/loaders";
+
+@import "layouts/dashboard";
+@import "layouts/auth";
+
+@import "config/reset";

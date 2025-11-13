@@ -1,0 +1,88 @@
+$primary: #006aff;
+
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+
+$body-bg: #dddddd;
+
+
+$font-family-base: "poppins";
+
+$navbar-height: 60px;
+$sidebar-width: 250px;
+
+$input-bg: transparent;
+$input-focus-bg: $input-bg;
+$dropdown-bg: white;
+$dropdown-link-hover-bg: #ddd;
+
+$fz: (
+    bigest: 2rem,
+    biger: 1.5rem,
+    big: 1.2rem,
+    normal: 1rem,
+    small: .8rem,
+    smaller: .6rem,
+);
+
+$utilities: (
+    "font-sizes": (
+        property: font-size,
+        class: fz,
+        responsive: true,
+        values: $fz,
+    ),
+    "min-widths": (
+        property: min-width,
+        class: min-w,
+        responsive: true,
+        values: (
+            300: 300px,
+            400: 400px,
+            500: 500px,
+            600: 600px,
+        )
+    ),
+    "max-widths": (
+        property: max-width,
+        class: max-w,
+        responsive: true,
+        values: (
+            100: 100px,
+            200: 200px,
+            300: 300px,
+            400: 400px,
+            500: 500px,
+            600: 600px,
+            700: 700px,
+        )
+    ),
+    "cursor": (
+        property: cursor,
+        class: cursor,
+        values: (
+            default: default, /*  El cursor por defecto. */
+            progress: progress, /*El cursor aparece cargando*/
+            pointer: pointer, /*  Un puntero, generalmente una mano con un dedo apuntando. */
+            text: text, /*  Un cursor de texto, generalmente una barra vertical. */
+            move: move, /*  Un cursor de movimiento, generalmente una cruz con flechas. */
+            help: help, /*  Un cursor de ayuda, generalmente un signo de interrogación. */
+            not-allowed: not-allowed, /*  Un cursor de no permitido, generalmente un círculo con una línea diagonal. */
+            wait: wait, /*  Un cursor de espera, generalmente un reloj de arena o un círculo giratorio. */
+            crosshair: crosshair, /*  Un cursor de mira, generalmente una cruz. */
+            grab: grab, /*  Un cursor de agarre, generalmente una mano abierta. */
+            grabbing: grabbing, /*  Un cursor de agarrando, generalmente una mano cerrada. */
+            col-resize: col-resize, /*  Un cursor de redimensionamiento horizontal. */
+            row-resize: row-resize, /*  Un cursor de redimensionamiento vertical. */
+            n-resize: n-resize, /*  Un cursor de redimensionamiento hacia el norte. */
+            e-resize: e-resize, /*  Un cursor de redimensionamiento hacia el este. */
+            s-resize: s-resize, /*  Un cursor de redimensionamiento hacia el sur. */
+            w-resize: w-resize, /*  Un cursor de redimensionamiento hacia el oeste. */
+            ne-resize: ne-resize, /*  Un cursor de redimensionamiento hacia el noreste. */
+            nw-resize: nw-resize, /*  Un cursor de redimensionamiento hacia el noroeste. */
+            se-resize: se-resize, /*  Un cursor de redimensionamiento hacia el sureste. */
+            sw-resize: sw-resize, /*  Un cursor de redimensionamiento hacia el suroeste. */
+        )
+    )
+
+);
